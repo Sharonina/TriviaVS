@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1F234E;
+}
+
+main{
+    width: 100%;
+    height: auto;
+}
+main nav{
+	height: 80px;
+	width: 90%;
+	display: flex;
+    font-size: 50px;
+	font-family: 'Train One', cursive;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+main nav .nav-logo{
+	height: 100px;
+	display: flex;
+}
+
+main nav .nav-logo span {
+    display: flex;
+    align-items: center;
+}
+
+main nav .nav-logo .logo-color1{
+	color: #FFF591;
+}
+
+main nav .nav-logo .logo-color2{
+	color: #F35588;
+}
+
+main nav .nav-num-pregunta{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+main nav .nav-num-pregunta span{
+    color: #A3F7BF;
+}
+
+main .main-frase{
+    color: #F4F3F9;
+    font-family: 'Baloo 2', cursive;
+    font-size: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+main .main-frase span{
+    display: flex;
+}
+
+main .main-frase p{
+	display: flex;
+}
+
+main .botones-trivia{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    flex-direction: column;
+    font-family: 'Baloo 2';
+    color: #1f234e;
+    font-size: 30px;
+    text-align: center;
+}
+
+main .botones-trivia-op-sup{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 48%;
+}
+
+.botones-trivia-op-sup .op1{
+    width: 40%;
+    height: 100%;
+    background-color: #05DFD7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    border-radius: 25px 0 0 0;
+}
+
+.botones-trivia-op-sup .op1:hover{
+    background-color: #15b7b1;
+    color: #F4F3F9;
+    margin-right: 5px;
+    font-size: 35px;
+}
+
+.botones-trivia-op-sup .op2{
+    width: 40%;
+    height: 100%;
+    background-color: #F35588;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    border-radius: 0 25px 0 0;
+}
+
+.botones-trivia-op-sup .op2:hover{
+    background-color: #d73c6e;
+    color: #F4F3F9;
+    margin-left: 5px;
+    font-size: 35px;
+}
+
+main .botones-trivia-op-inf{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 48%;
+}
+
+.botones-trivia-op-inf .op3{
+    width: 40%;
+    height: 100%;
+    background-color: #A3F7BF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    border-radius: 0 0 0 25px;
+}
+
+.botones-trivia-op-inf .op3:hover{
+    background-color: #85c99c;
+    color: #F4F3F9;
+    margin-right: 5px;
+    font-size: 35px;
+}
+
+.botones-trivia-op-inf .op4{
+    width: 40%;
+    height: 100%;
+    background-color: #FFF591;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    border-radius: 0 0 25px 0;
+}
+
+.botones-trivia-op-inf .op4:hover{
+    background-color: #d3c326;
+    color: #F4F3F9;
+    margin-left: 5px;
+    font-size: 35px;
+}
+
+.botones-trivia .botones-trivia-preg{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.botones-trivia-preg span{
+    width: 25%;
+    background-color: #FFB984;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+main .main-saltar-preg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+}
+
+main .main-saltar-preg a{
+    cursor: pointer;
+    color: #F35588;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Baloo 2';
+}
+
+main .main-saltar-preg a:hover{
+    color:#ffa4c1;
+}
+
+/* Boton-resultados */
+.de-nuevo {
+    width: 100%;
+    height: auto;
+    margin: .5%;
+    display: flex;
+    justify-content: center;
+}
+
+.de-nuevo button {
+	height: 50px;
+    width: 500px;
+    border: 3px solid #05DFD7;
+    background: none;
+    border-radius: 15px;
+	cursor: pointer;
+}
+
+.de-nuevo button a{
+	font-size: 22px;
+    color: #05DFD7;
+    font-family: 'Baloo 2';
+    text-decoration: none;
+}
+
+.de-nuevo button:hover{
+	border: 3px solid #18b6b1;
+}
+
+.salir {
+    width: 100%;
+    height: auto;
+    margin: .5%;
+    display: flex;
+    justify-content: center;
+}
+
+.salir button {
+	height: 50px;
+    width: 500px;
+    border: 3px solid #f66593;
+    background: none;
+    border-radius: 15px;
+	cursor: pointer;
+}
+
+.salir button a{
+	font-size: 22px;
+    color: #f66593;
+    font-family: 'Baloo 2';
+    text-decoration: none;
+}
+
+.salir button:hover{
+	border: 3px solid #d73c6e;
+}
+/* . */

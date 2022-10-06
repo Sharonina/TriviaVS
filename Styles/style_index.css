@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1F234E;
+}
+
+main .main-superior{
+	height: 450px;
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+main .main-superior div{
+	height: 350px;
+	display: flex;
+	align-items: flex-end;
+	font-size: 120px;
+	font-family: 'Train One', cursive;
+}
+
+main .main-superior div .logo-color1{
+	color: #FFF591;
+}
+
+main .main-superior div .logo-color2{
+	color: #F35588;
+}
+
+main .main-superior p{
+	height: 100px;
+	color: #F4F3F9;
+	font-family: 'Baloo 2', cursive;
+	font-size: 40px;
+	display: flex;
+	align-items: center;
+}
+
+main .main-inferior{
+	height: 400px;
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+main .main-inferior .main-inferior-input {
+	height: 300px;
+	width: auto;
+	display: flex;
+	align-items: flex-end;
+}
+
+main .main-inferior .main-inferior-input input {
+	font-size: 26px;
+    color: #e4e4e4;
+    background: none;
+    width: 900px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #A3F7BF;
+    text-align: center;
+	font-family: 'Baloo 2';
+}
+
+main .main-inferior .main-inferior-input input:hover{
+	border-bottom: 3px solid #B8FFD0;
+	width: 1000px;
+}
+
+
+main .main-inferior .main-inferior-boton {
+	height: 100px;
+    padding-top: 30px;
+}
+
+main .main-inferior .main-inferior-boton button {
+	height: 50px;
+    width: 500px;
+    border: 3px solid #05DFD7;
+    background: none;
+    border-radius: 15px;
+	cursor: pointer;
+}
+
+.main-inferior-boton button a{
+	font-size: 22px;
+    color: #05DFD7;
+    font-family: 'Baloo 2';
+    text-decoration: none;
+}
+
+main .main-inferior .main-inferior-boton button:hover{
+	border: 3px solid #18b6b1;
+}
