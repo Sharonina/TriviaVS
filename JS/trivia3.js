@@ -9,7 +9,7 @@ const setNewUserName = () => {
 window.addEventListener('load', setNewUserName())
 
 //respuesta correcta
-const repuestaC = 'op2'
-
-const answer = () => {
+const onOptionSelected = (respuesta) => {
+    window.localStorage.setItem("respuesta3", respuesta)
+    window.location.replace('resultados.html')
 }

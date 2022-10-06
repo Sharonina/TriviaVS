@@ -9,7 +9,9 @@ const setNewUserName = () => {
 window.addEventListener('load', setNewUserName())
 
 //respuesta correcta
-const repuestaC = 'op2'
-
-const answer = () => {
+const onOptionSelected = (respuesta) => {
+    window.localStorage.setItem("respuesta1", respuesta)
+    window.location.replace('trivia2.html')
 }
+
+
