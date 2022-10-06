@@ -12,7 +12,7 @@ main{
     height: auto;
 }
 main nav{
-	height: 80px;
+	height: 70px;
 	width: 90%;
 	display: flex;
     font-size: 50px;
@@ -201,13 +201,72 @@ main .main-saltar-preg a:hover{
     color:#ffa4c1;
 }
 
-/* Boton-resultados */
-.de-nuevo {
+/* resultados */
+main .main-frase{
+    color: #F4F3F9;
+    font-family: 'Baloo 2', cursive;
+    font-size: 30px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+main .main-frase span, p{
+    display: flex;
+}
+
+#resultados{
+    font-size: 40px;
+    color: #a3f7bf;
+    font-family: 'baloo 2';
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.gif{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.gif img{
+    width: 50%;
+}
+
+.textos{
+    font-family: 'baloo 2';
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textos span{
+    color: #fff591;
+    font-size: 30px;
+}
+
+.textos p{
+    color: #f4f3f9;
+    width: 50%;
+}
+
+/* Boton-resultados */
+.botones-finales{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 1%;
+}
+
+.de-nuevo {
+    width: 50%;
     height: auto;
     margin: .5%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .de-nuevo button {
@@ -231,11 +290,11 @@ main .main-saltar-preg a:hover{
 }
 
 .salir {
-    width: 100%;
+    width: 50%;
     height: auto;
     margin: .5%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .salir button {
